@@ -3,3 +3,9 @@ The default port and password can be found in Dockerfile. To override, use *--en
 ```
 docker run -p 12306:12306 -d joshuakwan/shadow-server
 ```
+
+The image can be pulled from docker hub:
+
+```
+docker pull joshuakwan/shadow-server
+```
